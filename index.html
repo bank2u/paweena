@@ -16,7 +16,7 @@
       crossorigin="anonymous"
     />
 
-    <title>Paweena!</title>
+    <title>Paweena</title>
   </head>
   <body>
     <!-- Navigation -->
@@ -31,19 +31,20 @@
           คะแนนดิบ <input type="number" class="form-control" id="txtRawScore" />
         </div>
         <div class="col-sm mt-4">
-          คะแนนคำนวณ <input type="number" class="form-control" id="txtAdjScore" />
+          คะแนนคำนวณ
+          <input type="number" class="form-control" id="txtAdjScore" />
         </div>
       </div>
     </div>
 
-    <div class="container mt-4" id="error">
+    <div class="container mt-4" id="error" style="display:none">
       <div class="alert alert-danger" role="alert">
         ERROR : ไม่สามารถสร้างตารางได้
       </div>
     </div>
 
-    <div class="container mt-4 table-striped" id="tblScore">
-      <table class="table">
+    <div class="container mt-4 ">
+      <table class="table table-condensed table-striped table-sm" id="tblScore">
         <thead>
           <tr>
             <th scope="col">คะแนนดิบ</th>
@@ -52,11 +53,6 @@
           </tr>
         </thead>
         <tbody>
-          <tr>
-            <td>Mark</td>
-            <td>Otto</td>
-            <td>@mdo</td>
-          </tr>
         </tbody>
       </table>
     </div>

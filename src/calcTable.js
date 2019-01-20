@@ -22,7 +22,7 @@ $(function() {
           var per = Math.round((((i * 100) / rawScore) * 100)) / 100;
           var adj = Math.round((i * adjScore) / rawScore);
           var row =
-            "<tr><td>" + i + "</td><td>" + per + "</td><td>" + adj + "</td>";
+            "<tr class='text-center'><td>" + i + "</td><td>" + per + "</td><td>" + adj + "</td>";
 
           $("#tblScore>tbody").append(row);
         }
